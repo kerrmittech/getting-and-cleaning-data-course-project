@@ -21,7 +21,7 @@
     <meta name="viewport" content="width=1020">
     
     
-    <title>Coursera-Getting-and-Cleaning-Data-Course-Project/README.md at master · OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project</title>
+    <title>Coursera-Getting-and-Cleaning-Data-Course-Project/CodeBook.md at master · OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -41,7 +41,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/MTU4MTAwNzI6OGUxZTE2YWFlYWE0ZmI2NmE0YTAxZjhjODlmYzk2MjM6ZjE1MDMyZjA3NzBmZmJjODU3OGM1YTc0Y2NkZTBhYzNmNzYxYzFjYWU4NTNhNjY2MGQ2OGZmZGJmMjZlMDNhMw==--ca0f41b78784d050a6e055c7648a0d1b1e8ae99d">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTU4MTAwNzI6OGUxZTE2YWFlYWE0ZmI2NmE0YTAxZjhjODlmYzk2MjM6ZDBmZGRhYzFkNjliNDgxZDc0NjE5Njg1YjcyMDYwZmZhZGRiZmE2NGI0ZmU4MGY2ODVmMjgzY2RiODY1MTBmOQ==--232fbf834158c5b44b54a1e3868bd82d6dd43a36">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -53,7 +53,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="6325072E:3B67:ABFB378:56AEC9CE" name="octolytics-dimension-request_id" /><meta content="15810072" name="octolytics-actor-id" /><meta content="kerrmittech" name="octolytics-actor-login" /><meta content="0970a4293657f0f0dfc6200e33bb228c06de1166d1d341f53f7dc5de91223794" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="6325072E:1BA0:AB9E650:56AECB56" name="octolytics-dimension-request_id" /><meta content="15810072" name="octolytics-actor-id" /><meta content="kerrmittech" name="octolytics-actor-login" /><meta content="0970a4293657f0f0dfc6200e33bb228c06de1166d1d341f53f7dc5de91223794" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -82,7 +82,7 @@
   <link href="https://github.com/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/commits/master.atom" rel="alternate" title="Recent Commits to Coursera-Getting-and-Cleaning-Data-Course-Project:master" type="application/atom+xml">
 
 
-      <link rel="canonical" href="https://github.com/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/blob/master/README.md" data-pjax-transient>
+      <link rel="canonical" href="https://github.com/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/blob/master/CodeBook.md" data-pjax-transient>
   </head>
 
 
@@ -223,7 +223,7 @@
             Settings
           </a>
 
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="daac2c2a36ded26e4660318787ec68ac66cf9e64" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="fUTLQ2i24xSqNqusUldzGpR07plEQ6MU2Idgqn4qYUX+appOyqhPMzlt69sU2i0Om0P7jqGYQoFLj7PWdj9E9w==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="daac2c2a36ded26e4660318787ec68ac66cf9e64" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="M9fRdDmE2yUFPIV2qsWtvq2IGEtGIHt5GEtP6Yy9rW+kkFbFRTSX4rrnGVZMSP++OFS9IPgi7SPUyqkFdJBz9Q==" /></div>
             <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
               Sign out
             </button>
@@ -261,7 +261,7 @@
 <ul class="pagehead-actions">
 
   <li>
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="daac2c2a36ded26e4660318787ec68ac66cf9e64" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="6NuMWKz8Ac4kyl2Ej8JbL4CX7+lyTzEXP7i1hX5ZCdteHJahRzH7fayM7zoAIDfCaQUdo2sNuNl7BSZtV57SJA==" /></div>      <input id="repository_id" name="repository_id" type="hidden" value="23278092" />
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="daac2c2a36ded26e4660318787ec68ac66cf9e64" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="QhnZ9PQb/WKp7KzKaKUIwHq2G2bl7HoyctY7PbTLT0B45bC/zYSk884qrTR6WmLsxM/xF22m03dwKPSj3e9wZQ==" /></div>      <input id="repository_id" name="repository_id" type="hidden" value="23278092" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/subscription"
@@ -336,7 +336,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/unstar" class="js-toggler-form starred js-unstar-button" data-form-nonce="daac2c2a36ded26e4660318787ec68ac66cf9e64" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="e5JxFTUrSCwE8t95XVOIJ4Uqr6qlfWfGrOqsckOd6ZGZ5br6Rj8svB02ZtR9XE67khOL6ANDVFBH2b+Sn5tH6g==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/unstar" class="js-toggler-form starred js-unstar-button" data-form-nonce="daac2c2a36ded26e4660318787ec68ac66cf9e64" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="UGS7C/idJCe4R3NiWWzUUk+S2fM5MzK8aMMAG9IyzJfoZxUeDnWDPZBL9cph6RT/Yw5aw4KnDOPSZ45ihTeQcQ==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project"
@@ -348,7 +348,7 @@
           3
         </a>
 </form>
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/star" class="js-toggler-form unstarred js-star-button" data-form-nonce="daac2c2a36ded26e4660318787ec68ac66cf9e64" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ZFekE36ezGsgTHw4icv7zFLXDnfSa+X9/qqSjZ0uS7OKjXUSdIMXKs7nsxjaGRBbxlaLbC6ioNOiBk8r/yqCRQ==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/star" class="js-toggler-form unstarred js-star-button" data-form-nonce="daac2c2a36ded26e4660318787ec68ac66cf9e64" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="EJynUUCjDbxJVS23Wk6f/43wBbr2ZRbpzfr2IIu+DSRnizPXJKA7kY8VTl3ZT47EA2AAyVMEUAhKgechTrnIzA==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project"
@@ -364,7 +364,7 @@
   </li>
 
   <li>
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/fork" class="btn-with-count" data-form-nonce="daac2c2a36ded26e4660318787ec68ac66cf9e64" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="vEy5HmFZSW+sJGboEx6EthE1rQPmSfSJLEXy7n6YQ/gDWJ4CuuanDJEBAB1ovZElijvps9oUshjdsvXyd3FiNQ==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/fork" class="btn-with-count" data-form-nonce="daac2c2a36ded26e4660318787ec68ac66cf9e64" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="SKLFydyFwEVA1MgW4vmk7nXcW5nv7gamQh6Iy2yeS57nCiJUVVND2yYksvJvBnu+1ruKZrBqeFcTEgPv+GS0PQ==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -437,9 +437,9 @@
 
     
 
-<a href="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/blob/9e4084dc410069ef21d2f78ff1f74b453d239f58/README.md" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/blob/9e4084dc410069ef21d2f78ff1f74b453d239f58/CodeBook.md" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:ffdd100340932b6f9cb4c76a00affd5a -->
+<!-- blob contrib key: blob_contributors:v21:5949bf73cb23b9f77026a42367d8efdb -->
 
 <div class="file-navigation js-zeroclipboard-container">
   
@@ -481,7 +481,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/blob/master/README.md"
+               href="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/blob/master/CodeBook.md"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -518,22 +518,22 @@
     <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
   </div>
   <div class="breadcrumb js-zeroclipboard-target">
-    <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">Coursera-Getting-and-Cleaning-Data-Course-Project</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+    <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">Coursera-Getting-and-Cleaning-Data-Course-Project</span></a></span></span><span class="separator">/</span><strong class="final-path">CodeBook.md</strong>
   </div>
 </div>
 
 
   <div class="commit-tease">
       <span class="right">
-        <a class="commit-tease-sha" href="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/commit/c8746f26868328a258abb0ae916f9ae0a91d859b" data-pjax>
-          c8746f2
+        <a class="commit-tease-sha" href="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/commit/9e4084dc410069ef21d2f78ff1f74b453d239f58" data-pjax>
+          9e4084d
         </a>
-        <time datetime="2014-08-24T14:01:27Z" is="relative-time">Aug 24, 2014</time>
+        <time datetime="2014-08-24T14:20:27Z" is="relative-time">Aug 24, 2014</time>
       </span>
       <div>
         <img alt="@OscarPDR" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/1264166?v=3&amp;s=40" width="20" />
         <a href="/OscarPDR" class="user-mention" rel="author">OscarPDR</a>
-          <a href="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/commit/c8746f26868328a258abb0ae916f9ae0a91d859b" class="message" data-pjax="true" title="Update README.md">Update README.md</a>
+          <a href="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/commit/9e4084dc410069ef21d2f78ff1f74b453d239f58" class="message" data-pjax="true" title="Update CodeBook.md">Update CodeBook.md</a>
       </div>
 
     <div class="commit-tease-contributors">
@@ -560,9 +560,9 @@
   <div class="file-actions">
 
     <div class="btn-group">
-      <a href="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/raw/master/README.md" class="btn btn-sm " id="raw-url">Raw</a>
-        <a href="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/blame/master/README.md" class="btn btn-sm js-update-url-with-hash">Blame</a>
-      <a href="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/commits/master/README.md" class="btn btn-sm " rel="nofollow">History</a>
+      <a href="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/raw/master/CodeBook.md" class="btn btn-sm " id="raw-url">Raw</a>
+        <a href="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/blame/master/CodeBook.md" class="btn btn-sm js-update-url-with-hash">Blame</a>
+      <a href="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/commits/master/CodeBook.md" class="btn btn-sm " rel="nofollow">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
@@ -572,12 +572,12 @@
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15 2H1c-0.55 0-1 0.45-1 1v9c0 0.55 0.45 1 1 1h5.34c-0.25 0.61-0.86 1.39-2.34 2h8c-1.48-0.61-2.09-1.39-2.34-2h5.34c0.55 0 1-0.45 1-1V3c0-0.55-0.45-1-1-1z m0 9H1V3h14v8z"></path></svg>
         </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/edit/master/README.md" class="inline-form js-update-url-with-hash" data-form-nonce="daac2c2a36ded26e4660318787ec68ac66cf9e64" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="2C3IBJolVog9EqOClHK9opZRpf4Fn2crw0oDsHiV5F7XNXkh6uKicVjGUcE1hMmKRuIYBdEF77JvhyUh9uUT8w==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/edit/master/CodeBook.md" class="inline-form js-update-url-with-hash" data-form-nonce="daac2c2a36ded26e4660318787ec68ac66cf9e64" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="3G7xWiyxoaNhipylNca5iffyzbjUaJINp5/ArW86IIKJTAK5RHdf6ACfrrgH763kHvPsHKA0HtcXO60yvq1owQ==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M0 12v3h3l8-8-3-3L0 12z m3 2H1V12h1v1h1v1z m10.3-9.3l-1.3 1.3-3-3 1.3-1.3c0.39-0.39 1.02-0.39 1.41 0l1.59 1.59c0.39 0.39 0.39 1.02 0 1.41z"></path></svg>
           </button>
-</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/delete/master/README.md" class="inline-form" data-form-nonce="daac2c2a36ded26e4660318787ec68ac66cf9e64" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="/U2grGz/TbXb16R6rpb7Qf5IrP0Eyc4Hp8raCF4kPwKw/XaJeRhMGVyd2vIqhPo4MbNQ4u64FER0DCbEDA9KJg==" /></div>
+</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project/delete/master/CodeBook.md" class="inline-form" data-form-nonce="daac2c2a36ded26e4660318787ec68ac66cf9e64" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="UbrXhLGzgcKW55kClAwg2DGmF7noljX7qoBoqU7nXz3XrJY2BIz/JLF4O54k68Up6R8p9e7zXaT+TKuomV2esQ==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M10 2H8c0-0.55-0.45-1-1-1H4c-0.55 0-1 0.45-1 1H1c-0.55 0-1 0.45-1 1v1c0 0.55 0.45 1 1 1v9c0 0.55 0.45 1 1 1h7c0.55 0 1-0.45 1-1V5c0.55 0 1-0.45 1-1v-1c0-0.55-0.45-1-1-1z m-1 12H2V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9z m1-10H1v-1h9v1z"></path></svg>
@@ -585,29 +585,36 @@
 </form>  </div>
 
   <div class="file-info">
-      17 lines (9 sloc)
+      19 lines (14 sloc)
       <span class="file-info-divider"></span>
-    890 Bytes
+    1.67 KB
   </div>
 </div>
 
   
   <div id="readme" class="blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-getting-and-cleaning-data---course-project" class="anchor" href="#getting-and-cleaning-data---course-project" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Getting and Cleaning Data - Course Project</h1>
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-introduction" class="anchor" href="#introduction" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Introduction</h1>
 
-<p>This repository hosts the R script (run_analysis.R), the code book (CodeBook.md) and the resulting data (tidy_data_set.txt) for the Data Science's track course "Getting and Cleaning Data" project, available in Coursera.</p>
+<p>The script <code>run_analysis.R</code>performs the 5 steps described in the course project's definition.</p>
 
-<p>The dataset being used is: <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">Human Activity Recognition Using Smartphones</a></p>
+<ul>
+<li>First, all of the similar data is merged using the <code>rbind()</code> function. By similar, we address those files having the same number of columns and referring to the same items.</li>
+<li>Then, only those columns with the mean and standard deviation measures are taken from the whole dataset. After extracting these columns, they are given the correct names, taken from the information within <code>features.txt</code>.</li>
+<li>As activity data is addressed with values 1:6, we take the activity names and IDs from <code>activity_labels.txt</code> and they are substituted in the dataset.</li>
+<li>On the whole dataset, those columns with vague column names are corrected.</li>
+<li>Finally, we generate a new dataset with all the average measures for each subject and activity type (30 subjects * 6 activities = 180 rows). The output file is called <code>tidy_data_set.txt</code>, and uploaded to this repository.</li>
+</ul>
 
-<h2><a id="user-content-files" class="anchor" href="#files" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Files</h2>
+<h1><a id="user-content-variables" class="anchor" href="#variables" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Variables</h1>
 
-<p>The code takes for granted all the data is present in a folder named 'UCI HAR Dataset' within your working directory, un-compressed and without names altered.</p>
-
-<p><code>CodeBook.md</code> describes the variables, the data, and any transformations or work that was performed to clean up the data.</p>
-
-<p><code>run_analysis.R</code> contains all the code to perform the analyses described in the 5 steps laid out in the assignment instructions. They can be launched in RStudio by just importing the file.</p>
-
-<p>The output of the run_analysis script is called <code>tidy_data_set.txt</code>, and uploaded in the course project's form.</p>
+<ul>
+<li><code>xTrain</code>, <code>yTrain</code>, <code>xTest</code>, <code>yTest</code>, <code>subjectTrain</code> and <code>subjectTest</code> contain the data from the downloaded files.</li>
+<li><code>xData</code>, <code>yData</code> and <code>subjectData</code> merge the previous datasets for further analysis.</li>
+<li><code>features</code> contains the correct names for the <code>xData</code> dataset, which are applied to the column names stored in <code>meanAndStdFeatures</code>, a numeric vector used to extract the desired data.</li>
+<li>A similar approach is taken with activity names through the <code>activities</code> variable.</li>
+<li><code>allData</code> merges <code>xData</code>, <code>yData</code> and <code>subjectData</code> in one large dataset.</li>
+<li>Finally, <code>averagesData</code> contains the averages which will be later stored in a text file. <code>ddply()</code> from the plyr package is used to apply <code>colMeans()</code> and make for a cleaner code structure.</li>
+</ul>
 </article>
   </div>
 
@@ -646,7 +653,7 @@
       <svg aria-hidden="true" class="mega-octicon octicon-mark-github" height="24" role="img" title="GitHub " version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 0.4 0.07 0.55-0.17 0.55-0.38 0-0.19-0.01-0.82-0.01-1.49-2.01 0.37-2.53-0.49-2.69-0.94-0.09-0.23-0.48-0.94-0.82-1.13-0.28-0.15-0.68-0.52-0.01-0.53 0.63-0.01 1.08 0.58 1.23 0.82 0.72 1.21 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-0.89-3.64-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.21 2.2 0.82 0.64-0.18 1.32-0.27 2-0.27 0.68 0 1.36 0.09 2 0.27 1.53-1.04 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48 0 1.07-0.01 1.93-0.01 2.2 0 0.21 0.15 0.46 0.55 0.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42 0 8 0z"></path></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2016 <span title="0.12968s from github-fe141-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2016 <span title="0.06714s from github-fe122-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
